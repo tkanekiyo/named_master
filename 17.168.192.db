@@ -1,0 +1,37 @@
+$TTL 86400	; 1 day
+@	IN	SOA	jupiter.net. root.kanekiyo.net. (
+			2018011401	; serial
+			3600		; refresh (1 hour)
+			1800		; retry (30 minutes)
+			604800		; expire (1 week)
+			86400		; minimum (1 day)
+)
+
+	IN	NS	jupiter.kanekiyo.net.
+	IN	PTR	kanekiyo.net.
+	IN	A	255.255.255.0
+
+1	IN	PTR	router.kanekiyo.net.
+2	IN	PTR	jupiter.kanekiyo.net.
+3	IN	PTR	rabit.kanekiyo.net.
+4	IN	PTR	micky.kanekiyo.net.
+5	IN	PTR	nasne.kanekiyo.net.
+6	IN	PTR	recbox.kanekiyo.net.
+7	IN	PTR	mars.kanekiyo.net.
+10	IN	PTR	neptune.kanekiyo.net.
+200	IN	PTR	vmhost1.kanekiyo.net.
+201	IN	PTR	vmguest1.kanekiyo.net.
+202	IN	PTR	vmguest2.kanekiyo.net.
+203	IN	PTR	vmguest3.kanekiyo.net.
+210	IN	PTR	vmhost2.kanekiyo.net.
+211	IN	PTR	vmguest4.kanekiyo.net.
+212	IN	PTR	vmguest5.kanekiyo.net.
+213	IN	PTR	vmguest6.kanekiyo.net.
+215	IN	PTR	ps4.kanekiyo.net.
+220	IN	PTR	vmhost3.kanekiyo.net.
+221	IN	PTR	vmguest7.kanekiyo.net.
+222	IN	PTR	vmguest8.kanekiyo.net.
+223	IN	PTR	vmguest9.kanekiyo.net.
+230	IN	PTR	raspi.kanekiyo.net.
+231	IN	PTR	ps4pro.kanekiyo.net.
+

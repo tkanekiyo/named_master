@@ -1,0 +1,7 @@
+/etc/named.conf
+chown root.named
+chmod 640
+
+/var/named/kanekiyo.net.zone 17.168.192.db
+chown named.named
+chmod 660
